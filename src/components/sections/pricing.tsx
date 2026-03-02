@@ -14,6 +14,7 @@ const plans = [
         description: "For scaling e-commerce brands unifying tasks and supply chain basics.",
         features: ["Shopify Product & Stock Sync", "BOM Builder (Up to 10 Components)", "AI Task Inbox (Voice + Text)", "Gantt ↔ Calendar Sync", "3 Team Members"],
         popular: false,
+        checkoutUrl: "https://easyflow-test.myshopify.com/products/easyflow-standard",
     },
     {
         name: "Enterprise",
@@ -22,6 +23,7 @@ const plans = [
         description: "For high-complexity products with 50+ components and multi-supplier operations.",
         features: ["Unlimited BOM Components", "Micro-Gantt (Fixed + Variable Phases)", "AI Restock Advisor (When + How Much)", "Multi-Supplier Management (15+)", "Priority 24/7 Logistics Support"],
         popular: true,
+        checkoutUrl: "https://easyflow-test.myshopify.com/products/easyflow-enterprise",
     },
 ];
 
@@ -92,12 +94,12 @@ export function PricingSection() {
                                 </div>
 
                                 {plan.popular ? (
-                                    <MagneticButton intensity={20} className="w-full text-sm">
-                                        Contact Sales
+                                    <MagneticButton intensity={20} className="w-full text-sm" onClick={() => window.open(plan.checkoutUrl, "_blank")}>
+                                        Get Enterprise
                                     </MagneticButton>
                                 ) : (
-                                    <button className="w-full rounded-full border border-slate-600 py-4 px-8 text-sm font-medium transition duration-200 hover:bg-slate-700 hover:border-slate-500">
-                                        Join the Waitlist
+                                    <button onClick={() => window.open(plan.checkoutUrl, "_blank")} className="w-full rounded-full border border-slate-600 py-4 px-8 text-sm font-medium transition duration-200 hover:bg-slate-700 hover:border-slate-500">
+                                        Get Started
                                     </button>
                                 )}
                             </div>

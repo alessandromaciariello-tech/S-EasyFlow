@@ -54,9 +54,9 @@ export function HeroSection() {
                         </FadeIn>
 
                         <FadeIn delay={0.4} className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
-                            <MagneticButton>
+                            <MagneticButton onClick={() => window.open("https://easyflow-test.myshopify.com/products/easyflow-standard", "_blank")}>
                                 <span className="flex items-center gap-2">
-                                    Join the Waitlist <ArrowRight weight="bold" />
+                                    Get Started <ArrowRight weight="bold" />
                                 </span>
                             </MagneticButton>
                             <button className="group flex items-center gap-3 px-6 py-4 rounded-full font-medium text-slate-600 hover:text-slate-900 transition-colors">
