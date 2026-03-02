@@ -9,7 +9,7 @@ import { MagneticButton } from "../ui/magnetic-button";
 const plans = [
     {
         name: "Standard",
-        price: "$299",
+        price: "€9,99",
         period: "/month",
         description: "For scaling e-commerce brands unifying tasks and supply chain basics.",
         features: ["Shopify Product & Stock Sync", "BOM Builder (Up to 10 Components)", "AI Task Inbox (Voice + Text)", "Gantt ↔ Calendar Sync", "3 Team Members"],
@@ -18,8 +18,8 @@ const plans = [
     },
     {
         name: "Enterprise",
-        price: "Custom",
-        period: "",
+        price: "€19,99",
+        period: "/month",
         description: "For high-complexity products with 50+ components and multi-supplier operations.",
         features: ["Unlimited BOM Components", "Micro-Gantt (Fixed + Variable Phases)", "AI Restock Advisor (When + How Much)", "Multi-Supplier Management (15+)", "Priority 24/7 Logistics Support"],
         popular: true,
