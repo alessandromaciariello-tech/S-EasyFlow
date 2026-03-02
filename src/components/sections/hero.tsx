@@ -54,7 +54,7 @@ export function HeroSection() {
                         </FadeIn>
 
                         <FadeIn delay={0.4} className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
-                            <MagneticButton onClick={() => window.open("https://easyflow-test.myshopify.com/products/easyflow-standard", "_blank")}>
+                            <MagneticButton onClick={() => window.open("https://easyflow-test.myshopify.com/cart/57148864430415:1?payment=shop_pay", "_blank")}>
                                 <span className="flex items-center gap-2">
                                     Get Started <ArrowRight weight="bold" />
                                 </span>

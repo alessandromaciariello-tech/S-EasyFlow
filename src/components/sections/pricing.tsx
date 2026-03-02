@@ -14,7 +14,7 @@ const plans = [
         description: "For scaling e-commerce brands unifying tasks and supply chain basics.",
         features: ["Shopify Product & Stock Sync", "BOM Builder (Up to 10 Components)", "AI Task Inbox (Voice + Text)", "Gantt ↔ Calendar Sync", "3 Team Members"],
         popular: false,
-        checkoutUrl: "https://easyflow-test.myshopify.com/products/easyflow-standard",
+        checkoutUrl: "https://easyflow-test.myshopify.com/cart/57148864430415:1?payment=shop_pay",
     },
     {
         name: "Enterprise",
@@ -23,7 +23,7 @@ const plans = [
         description: "For high-complexity products with 50+ components and multi-supplier operations.",
         features: ["Unlimited BOM Components", "Micro-Gantt (Fixed + Variable Phases)", "AI Restock Advisor (When + How Much)", "Multi-Supplier Management (15+)", "Priority 24/7 Logistics Support"],
         popular: true,
-        checkoutUrl: "https://easyflow-test.myshopify.com/products/easyflow-enterprise",
+        checkoutUrl: "https://easyflow-test.myshopify.com/cart/57149033906511:1?payment=shop_pay",
     },
 ];
 
